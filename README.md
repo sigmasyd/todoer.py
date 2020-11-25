@@ -9,4 +9,6 @@ export FLASK_DATABASES_USER='usr'
 export FLASK_DATABASES_DB='todoer'
 
 flask init-db
+
+flask run
 ```
