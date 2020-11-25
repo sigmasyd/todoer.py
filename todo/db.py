@@ -9,7 +9,6 @@ from .schema import instructions
 
 def get_db():
   if 'db' not in g:
-    print(current_app.config)
     g.db = mysql.connector.connect(
       host = current_app.config["DATABASE_HOST"],
       user = current_app.config["DATABASE_USER"],
